@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://hdbackgroundspot.com//storage/upload/cool-background-pictures/cool-background-pictures-34.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+#main-header {
+  text-align: center;
+  padding: 0;
+  font-size: 50px;
+  font-weight: bold;
+  height: 150px;
+  background:url(http://touchechicago.com/wp-content/uploads/2013/10/light-wood-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 10px 10px 10px black;
+}
+
+#number {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#address {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#info {
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  color: black;
+  background-color: white;
+  opacity: 0.7;
+}
+
+#info-text {
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10%;
+  margin-right: 10px;
+  margin-left: 50%;
+  border-bottom: 2px solid black;
+}
+
+#pub {
+  margin-bottom: 10%;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+#bar {
+  float: left;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+#hours-text {
+  padding-bottom: 6%;
+  border-bottom: 2px solid black;
+  margin-bottom: 10%;
+  margin-top: 20%;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 50%;
+}
+
+#hours {
+  height: 200px;
+  float: right;
+  margin-bottom: 10%;
+}
+
+
+.navbar {
+  width: 100%;
+  padding:1px 0 30px 0;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+  box-shadow: 10px 10px 10px black;
+}
+
+nav ul li {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #323642;
+  transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+ @media screen and (max-width: 768px) {
+  nav{}
+  nav ul {}
+  nav ul li {
+    width: 100%;
+    border-bottom: 1px solid black;}
+
+    #info {
+      margin-left: 2.5%;
+    }
+
+     #bar {
+      float: none;
+      margin-bottom: 5%;
+     }
+
+    #info-text {
+      margin-left: 5%;
+    }
+
+    #hours {
+      float: none;
+      margin-bottom: 0%;
+    }
+
+    #hours-text {
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+}
+
+#main-footer {
+  margin: 0;
+  
+  color: white;
+  text-align: center;
+  background: url(http://touchechicago.com/wp-content/uploads/2013/10/light-wood-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  padding: 10px;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
