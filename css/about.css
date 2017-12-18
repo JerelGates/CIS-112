@@ -82,6 +82,11 @@ body {
   margin-bottom: 10%;
 }
 
+#hours:hover {
+  transition:1s;
+  transform:scale(1.3);
+}
+
 
 .navbar {
   width: 100%;
